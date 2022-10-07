@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.border {
+  width: 1300px;
+  height: 1050px;  
+  padding: 0px;
+  border:1px solid white;
+  margin-left:8%; 
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1167b1;;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding:  12px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+ 
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: 2px;
+  border-color:#1167b1;
+  
+  color: white;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover,  .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: silver;
+  color:white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  background-color:#1167b1; ;
+  color: white;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: navy;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  grid-area: header;
+  background-color: #1167b1;
+  padding: 8px;
+  text-align: left;
+  
+  color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 490px;
+}
+.box2 {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height:auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Style the footer */
+.footer {
+  background-color: #FFFFFF;
+  padding: 8px;
+margin : 2px;
+color : black;
+text-align:center; 
+
+  
+}
+
+
+.button2 {
+background-color: #1167b1;;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20x;
+  margin: 2px 12px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 2em;
+  margin-left: -2em;
+}
+
+
+        button#btn{
+            background-color: green;
+            color: ;
+            height: 30px;
+            width: 50px;
+        }
+        tr,td,table{
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f246;
+}
+tr,td,table{
+    border-collapse:collapse;
+
+}
+table{
+    border: 0px solid rgb(170, 167, 167);
+    width: 590px;
+    margin-top: 2px;
+}
+    div.table{
+        border:3px solid grey ;
+        width: 600px;
+        height: auto;
+        padding: 6px;
+    }   
+    .divcell {
+        border-bottom: 1px dashed rgba(128, 128, 128, 0.747);
+        padding:8px;
+    }
+
+.login2{
+
+  border:1px solid grey ;
+  background-color:white;
+  width :1298px;
+  height :auto;
+  margin-bottom: 200px;
+ }
+
+</style>
+</head>
+<body>
+<div class="border">
+<img src="logo.gif" alt="logo" width="300" height="100">
+<div class="navbar">
+<div class="dropdown">
+    <button class="dropbtn">About Us</button>
+     <div class="dropdown-content">
+      <a href="###">About this portal</a>
+      <a href="###">History of Direct Taxation</a>
+     <a href="###">Vision, Mission, Value</a>
+	 <a href="###">Who we are</a>
+      <a href="###">Right to Information</a>
+      <a href="###">Organization & Functions</a>
+    </div>
+  </div> 
+  <a href="###">Feedback</a>
+  <a href="###">Accessibility Option</a>
+  <a href="###">Contact Us</a>
+  <a href="###">e-Nivaran</a>
+  <a href="###">Help</a>
+</div>
+<div id="search-10" class="widget_search">
+  <form role="search" method="get" action="https://www.incometaxindiaefiling.gov.in/home">
+    <div style="text-align: right;">
+    <a href="#"><input type="search" name="search" placeholder="Search..."></a>
+    <input type="submit" id="searchsubmit" value="Search"/>
+    </div>
+  </form>
+ 
+</div>
+<div class="header">
+<button class="button2"><a href="Main.html" style="text-decoration:none; color:white;" >Home</button></a>
+<button class="button2">Download</button>
+<button class="button2">News & Updates</button>
+</div>
+<br>
+<div class="login2">
+<p style="color:blue; font-family:Book man old; margin-left:50px;">Login </p>
+  <hr style="border-top: 1px dashed black; margin-left:50px;"> 
+<div class="row">
+
+  <div class="box1" style="background-color:white">
+	
+		<form>
+      <div class="table">
+         
+        <table>
+            <tr>
+                <td><b>User id <span style="color: red;">*</span></td>
+                <td colspan="2" style="text-align: center;"><input type="text" name="user_id"></td>
+            </tr>
+            <tr>
+                <td><b>Password <span style="color: red;">*</span></td>
+                <td colspan="2" style="text-align: center;"><input type="Password" name="Password"></td>
+            
+			</tr>
+			
+            <tr><td><b>Captcha Code</td>
+               <b> <td style="text-align: right;"><input type="text" placeholder="QC25bi"  id="capt" readonly="readonly">
+			   </td><td style="text-align:right;">
+			   <img src="cap.jpg" width="50px" onclick="cap()"></td>
+            </b></tr>
+                <tr><td><b>Enter Captcha <span style="color: red;">*</span></td>
+            <td colspan="2" style="text-align: center;"><input type="text" id="textinput">
+			</td> </tr>    
+			<tr><td colspan="4" style="text-align: center;"><b>Visually challanged users can use the below OTP
+			option instead of image captcha. OTP will be sent to the
+			Mobile number registerd with e-filling</td></tr>
+
+			<tr><td colspan="4" style="text-align: center;"><b>Request OTP
+			<form>
+			<input type="checkbox" id="otp">
+			<label for="vehicle1"></label><br>
+			</form>
+
+			</td></tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center;"><button id="btn" onclick="document.location=a href='#;">Login</button>
+				<a href="#" style="text-decoration:none; color:red;" >
+			Forgot password ?</a></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center;"><span style="color: black;"><b>New Users?</b></span><a href="#" style="text-decoration:none; color:red;" >Register</a></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center;"><a href="#" style="text-decoration:none; color:red;" >e-filling Login Through NetBanking</a></td>
+            </tr>
+        </table>
+      </div> 
+    </form>
+	 <script type="text/javascript">
+		function cap() {
+
+			var alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
+			           ,'W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i',
+			           'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+			var a=alpha[Math.floor(Math.random()*62)];
+			var b=alpha[Math.floor(Math.random()*62)];
+			var c=alpha[Math.floor(Math.random()*62)];
+			var d=alpha[Math.floor(Math.random()*62)];
+			var e=alpha[Math.floor(Math.random()*62)];
+			var f=alpha[Math.floor(Math.random()*62)];
+
+			var sum=a + b + c + d + e + f;
+
+			document.getElementById("capt").value=sum;
+		}
+
+             function validcap() {
+			var string1 = document.getElementById('capt').value;
+			var string2 = document.getElementById('textinput').value;
+			if (string1 == string2){
+				alert("Form is validated Succesfully");
+				return true;
+			}
+			else {
+				alert("Please enter a valid captcha");
+				return false;
+			}
+		}
+
+
+	</script>
+  </div>
+  
+  <div class="box2" style="background-color:white">
+  <p style="color:green" "text-size:30px";>Trouble logging In ?</p>
+  <ul>
+  <li>User ID is not case sensitive.</li>
+  <li>Password is case sensitive.</li>
+  <li>Make sure that the details entered are correct.</li>
+  </ul>
+  </div>
+</div>
+</div>
+<br>
+
+<hr style="border-top: border: 1px solid gray;">
+<div class="footer" >
+<a href="###"> <img src ="logo2.jpg" align="left" width="250px"></a>
+ <a href="###"> <img src ="smi.jpg" align="right" width="250px"></a>
+ <a href="###"><img src ="e1.jpg" align="right" width="70px"></a>
+ <a href="###"><img src ="e2.jpg" align="right" width="70px"></a>
+
+Website Policies | Accessibility Statement | Site Map</br>
+Copyright Ⓒ Income Tax Department, Ministry of Finance, Government of India.<br>
+All Rights Reserved | Site Last Updated on 12/04/2021
+</div>
+</div>
+</body>
+</html>

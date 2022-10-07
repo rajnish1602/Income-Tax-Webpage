@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.border {
+  width: 1300px;
+  height: 1050px;  
+  padding: 0px;
+  border:1px solid white;
+  margin-left:8%; 
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #00008b;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+ 
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: 2px;
+  border-color:#00008b; 
+  
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 11px 13px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  grid-area: header;
+  background-color: #00008b;
+  padding: 8px;
+  text-align: left;
+  
+  color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #FFFFFF;
+  padding: 8px;
+margin : 2px;
+color : black;
+text-align:center; 
+
+  
+}
+.button1 {
+  border: none;
+  color: white;
+  padding: 4px 10px;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:#00008b;;
+  
+}
+.button2 {
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:navy;
+  
+}
+.button3 {
+  border: none;
+  color: navy;
+  padding: 15px 30px;
+  border-radius: 1px;
+  text-align: center;
+  text-decoration: Underline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:white;
+  
+}
+
+
+.login1{
+  border:1px solid gray;
+  background-color:white;
+  padding-bottom: 130px;
+  margin-top : 5px;
+  }
+  
+p.round {
+  border: none;
+  border-radius: 15px;
+  text-align : center;
+  margin :10px;
+  padding : 18px;
+ 
+}
+.text {
+ 
+ 
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {color: blue;}
+  to {color: red;}
+}
+</style>
+</head>
+<body>
+<div class="border">
+<img src="logo.gif" alt="logo" width="300" height="100">
+<div class="navbar">
+<div class="dropdown">
+    <button class="dropbtn">About Us</button>
+    <div class="dropdown-content">
+       
+      <a href="###">About this portal</a>
+      <a href="###">History of Direct Taxation</a>
+     <a href="###">Vision, Mission, Value</a>
+	 <a href="###">Who we are</a>
+      <a href="###">Right to Information</a>
+      <a href="###">Organization & Functions</a>
+    </div>
+  </div> 
+  <a href="###">Feedback</a>
+  <a href="###">Accessibility Option</a>
+  <a href="###">Contact Us</a>
+  <a href="###">e-Nivaran</a>
+  <a href="###">Help</a>
+</div>
+<div id="search-10" class="widget_search">
+  <form role="search" method="get" action="https://www.incometaxindiaefiling.gov.in/home">
+    <div style="text-align: right;">
+    <a href="#"><input type="search" name="search" placeholder="Search..."></a>
+	<input type="submit" id="searchsubmit" value="Search"/>
+    </div>
+  </form>
+</div>
+<div class="header">
+<button class="button1"><a href="MAIN.html" style="text-decoration:none; color:white;">Home</button></a>
+<button class="button1">Download</button>
+<button class="button1">News & Updates</button>
+</div>
+<div class="login1" style="top-margin:10px;">
+ <img src="pan.png" width="1250" height="300">
+ <text><p class="round" style=" background : #92DFF3;"><b>Always Remember</text></b><br>
+ PAN allotment based on Aadhaar is free of cost. PAN pdf will be generated and issued to applicant.</p>
+<br><center> <button class="button2">Get New PAN</button>
+<button class="button2">Check Status/ Download PAN</button><br>
+<button class="button3">Guidelines</button>
+<button class="button3">Frequently Asked Questions(FAQs)</button>
+<button class="button3">Download Mobile App V1.0</button>
+</center>
+<br>
+<text><p class="round" style=" background : #D3D3D3; margin-left:250px; margin-right:250px;"><b>
+Note:</text>  Please download the updated version of PAN QR Code Scanner App (PanQRScanner)</b></p>
+</div>
+
+<hr style="border-top: border: 1px solid gray;">
+<div class="footer" >
+<a href="###"> <img src ="logo2.jpg" align="left" width="250px"></a>
+ <a href="###"> <img src ="smi.jpg" align="right" width="250px"></a>
+ <a href="###"><img src ="e1.jpg" align="right" width="70px"></a>
+ <a href="###"><img src ="e2.jpg" align="right" width="70px"></a>
+Website Policies | Accessibility Statement | Site Map</br>
+Copyright Ⓒ Income Tax Department, Ministry of Finance, Government of India.<br>
+All Rights Reserved | Site Last Updated on 12/04/2021
+</div>
+</div>
+</body>
+</html>
